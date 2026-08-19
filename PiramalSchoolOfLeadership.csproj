@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\AboutUs.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\.DS_Store" />
+    <None Include="wwwroot\assets\css\fontawesome\.DS_Store" />
+    <None Include="wwwroot\assets\images\.DS_Store" />
+    <None Include="wwwroot\assets\images\favicons\.DS_Store" />
+    <None Include="wwwroot\assets\images\icons\.DS_Store" />
+    <None Include="wwwroot\assets\images\logos\.DS_Store" />
+    <None Include="wwwroot\assets\images\people\.DS_Store" />
+    <None Include="wwwroot\assets\js\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\bootstrap-datepicker\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\bootstrap-datepicker\css\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\bootstrap-datepicker\js\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\fancybox\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\gridtab\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\mediaelementplayer\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\mediaelementplayer\css\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\swiper-4.5.0\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\swiper-4.5.0\css\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\swiper-4.5.0\js\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\swiper\.DS_Store" />
+    <None Include="wwwroot\assets\plugins\swiper\package\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.7" />
+  </ItemGroup>
+
+</Project>
