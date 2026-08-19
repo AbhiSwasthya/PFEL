@@ -1,0 +1,369 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PiramalSchoolOfLeadership
+build_property.RootNamespace = PiramalSchoolOfLeadership
+build_property.ProjectDir = C:\Projects\PiramalSchoolOfLeadership\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\PiramalSchoolOfLeadership
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Articles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcnRpY2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/BeneathTheShadowOfMountainsAndMemoriesMuskaansAwakening.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZW5lYXRoVGhlU2hhZG93T2ZNb3VudGFpbnNBbmRNZW1vcmllc011c2thYW5zQXdha2VuaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Blogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/BuildingBharatByStrengtheningMaternalHealthThroughCapacityBuildingOfNurses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdWlsZGluZ0JoYXJhdEJ5U3RyZW5ndGhlbmluZ01hdGVybmFsSGVhbHRoVGhyb3VnaENhcGFjaXR5QnVpbGRpbmdPZk51cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/BuildingBharatOnTheShouldersOfEducationHowMaulanaAzadsEducationalDreamLivesOnThroughNep2020.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdWlsZGluZ0JoYXJhdE9uVGhlU2hvdWxkZXJzT2ZFZHVjYXRpb25Ib3dNYXVsYW5hQXphZHNFZHVjYXRpb25hbERyZWFtTGl2ZXNPblRocm91Z2hOZXAyMDIwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Career.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJlZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/CentreForNurturingFutureLeaders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDZW50cmVGb3JOdXJ0dXJpbmdGdXR1cmVMZWFkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/CompassionateEcoSystemToFosterWellBeingEducatingTheHeartAndMind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wYXNzaW9uYXRlRWNvU3lzdGVtVG9Gb3N0ZXJXZWxsQmVpbmdFZHVjYXRpbmdUaGVIZWFydEFuZE1pbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/DifferentNotLessBuildingAnInclusiveBharatForChildrenWithAutism.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWZmZXJlbnROb3RMZXNzQnVpbGRpbmdBbkluY2x1c2l2ZUJoYXJhdEZvckNoaWxkcmVuV2l0aEF1dGlzbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Disclaimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNjbGFpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/EmotionalLiteracyWillEnsureAHappyNextGeneration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbW90aW9uYWxMaXRlcmFjeVdpbGxFbnN1cmVBSGFwcHlOZXh0R2VuZXJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/EmpoweringDiversityAutismStereotypesAndSocialResponsibility.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBvd2VyaW5nRGl2ZXJzaXR5QXV0aXNtU3RlcmVvdHlwZXNBbmRTb2NpYWxSZXNwb25zaWJpbGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/FoundationStoneLayingAtPsl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3VuZGF0aW9uU3RvbmVMYXlpbmdBdFBzbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/HolisticEducationForGirlsDignityAbilityAndOpportunity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb2xpc3RpY0VkdWNhdGlvbkZvckdpcmxzRGlnbml0eUFiaWxpdHlBbmRPcHBvcnR1bml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/HpGovernmentJoinHandsWithPiramalFoundationToLaunchSocialEmotionalEthicalLearningInTheState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIcEdvdmVybm1lbnRKb2luSGFuZHNXaXRoUGlyYW1hbEZvdW5kYXRpb25Ub0xhdW5jaFNvY2lhbEVtb3Rpb25hbEV0aGljYWxMZWFybmluZ0luVGhlU3RhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/InclusiveEducationAPathToCombatDiscrimination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmNsdXNpdmVFZHVjYXRpb25BUGF0aFRvQ29tYmF0RGlzY3JpbWluYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/IndiasMarchTo100WeveToEnsureAnInclusiveFutureForAllWritesBusinessTycoonAjayPiramal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRpYXNNYXJjaFRvMTAwV2V2ZVRvRW5zdXJlQW5JbmNsdXNpdmVGdXR1cmVGb3JBbGxXcml0ZXNCdXNpbmVzc1R5Y29vbkFqYXlQaXJhbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/IntegratingProjectBasedLearningInMiddleSchoolYearsProgramActionResearchAndDesignExperimentFromIndia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlZ3JhdGluZ1Byb2plY3RCYXNlZExlYXJuaW5nSW5NaWRkbGVTY2hvb2xZZWFyc1Byb2dyYW1BY3Rpb25SZXNlYXJjaEFuZERlc2lnbkV4cGVyaW1lbnRGcm9tSW5kaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/InternationalDayOfWomenAndGirlsInScience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlcm5hdGlvbmFsRGF5T2ZXb21lbkFuZEdpcmxzSW5TY2llbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/InternationalEducationDayHowToBuildACompassionateAndCapableIndia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlcm5hdGlvbmFsRWR1Y2F0aW9uRGF5SG93VG9CdWlsZEFDb21wYXNzaW9uYXRlQW5kQ2FwYWJsZUluZGlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/JourneyAimedAtTransformingSaharsaDistrictHospitalIntoAFutureReadyTechnologicallyEnabledCentreOfExcellence.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb3VybmV5QWltZWRBdFRyYW5zZm9ybWluZ1NhaGFyc2FEaXN0cmljdEhvc3BpdGFsSW50b0FGdXR1cmVSZWFkeVRlY2hub2xvZ2ljYWxseUVuYWJsZWRDZW50cmVPZkV4Y2VsbGVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/KashmirNewsChasingDreamsThroughArtBasedLearningInConflictTornValleySchools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXNobWlyTmV3c0NoYXNpbmdEcmVhbXNUaHJvdWdoQXJ0QmFzZWRMZWFybmluZ0luQ29uZmxpY3RUb3JuVmFsbGV5U2Nob29scy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/NewPathsOfLearningSoescsCentersTransformingEducation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdQYXRoc09mTGVhcm5pbmdTb2VzY3NDZW50ZXJzVHJhbnNmb3JtaW5nRWR1Y2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/NewsStories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzU3Rvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/OnWorldHealthDayTheNeedForRespectfulHealthcare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbldvcmxkSGVhbHRoRGF5VGhlTmVlZEZvclJlc3BlY3RmdWxIZWFsdGhjYXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PiramalFoundationGoogleJoinHandsToHelp6LakhChildrenLearnToReadIn30AspirationalDistricts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXJhbWFsRm91bmRhdGlvbkdvb2dsZUpvaW5IYW5kc1RvSGVscDZMYWtoQ2hpbGRyZW5MZWFyblRvUmVhZEluMzBBc3BpcmF0aW9uYWxEaXN0cmljdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PiramalFoundationHostsEventToAdvanceCompassionBasedEducationInIndia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXJhbWFsRm91bmRhdGlvbkhvc3RzRXZlbnRUb0FkdmFuY2VDb21wYXNzaW9uQmFzZWRFZHVjYXRpb25JbkluZGlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PiramalFoundationPartnersWithEmoryUniversityToAdvanceSocialEmotionalAndEthicalLearning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXJhbWFsRm91bmRhdGlvblBhcnRuZXJzV2l0aEVtb3J5VW5pdmVyc2l0eVRvQWR2YW5jZVNvY2lhbEVtb3Rpb25hbEFuZEV0aGljYWxMZWFybmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PiramalFoundationShowcasesCompassionDrivenTransformationsInIndiaAt5thAnnualJulietEShieldSymposiumInUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXJhbWFsRm91bmRhdGlvblNob3djYXNlc0NvbXBhc3Npb25Ecml2ZW5UcmFuc2Zvcm1hdGlvbnNJbkluZGlhQXQ1dGhBbm51YWxKdWxpZXRFU2hpZWxkU3ltcG9zaXVtSW5Vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PowerOfCompassionRevolutionisingHealthcareInIndia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3dlck9mQ29tcGFzc2lvblJldm9sdXRpb25pc2luZ0hlYWx0aGNhcmVJbkluZGlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PressReleases.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmVzc1JlbGVhc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/PrivacyPolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5UG9saWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/RajasthanMissionBuniyaadToCoverAllDistrictsInitiativeLaunched.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYWphc3RoYW5NaXNzaW9uQnVuaXlhYWRUb0NvdmVyQWxsRGlzdHJpY3RzSW5pdGlhdGl2ZUxhdW5jaGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/ReImagineLiteracyToDevelopCompassionateNationBuilders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZUltYWdpbmVMaXRlcmFjeVRvRGV2ZWxvcENvbXBhc3Npb25hdGVOYXRpb25CdWlsZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/ResearchPapers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlYXJjaFBhcGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SchoolOfClimateAndSustainability.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hvb2xPZkNsaW1hdGVBbmRTdXN0YWluYWJpbGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SchoolOfEducationAndSystemsChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hvb2xPZkVkdWNhdGlvbkFuZFN5c3RlbXNDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SchoolOfGenderAndInclusion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hvb2xPZkdlbmRlckFuZEluY2x1c2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SchoolOfHealth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hvb2xPZkhlYWx0aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/ShiftingTheNeedleFromRuleBasedToRoleBasedSystems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaGlmdGluZ1RoZU5lZWRsZUZyb21SdWxlQmFzZWRUb1JvbGVCYXNlZFN5c3RlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SocsGreywaterManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2NzR3JleXdhdGVyTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SocsMiddleManagerLeadershipDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2NzTWlkZGxlTWFuYWdlckxlYWRlcnNoaXBEZXZlbG9wbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SocsWaterConservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2NzV2F0ZXJDb25zZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SocsWaterEfficientAgriculture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2NzV2F0ZXJFZmZpY2llbnRBZ3JpY3VsdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescAestheticLiteracy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY0Flc3RoZXRpY0xpdGVyYWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescAssessmentReform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY0Fzc2Vzc21lbnRSZWZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescCompassionateGenderTransformativeEducationSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY0NvbXBhc3Npb25hdGVHZW5kZXJUcmFuc2Zvcm1hdGl2ZUVkdWNhdGlvblN5c3RlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescKarmayogiSaarthiProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY0thcm1heW9naVNhYXJ0aGlQcm9ncmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescLeadershipDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY0xlYWRlcnNoaXBEZXZlbG9wbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescMissionBuniyaad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY01pc3Npb25CdW5peWFhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescMitraFellowship.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY01pdHJhRmVsbG93c2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescPhysicalLiteracy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1BoeXNpY2FsTGl0ZXJhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescProjectBasedLearning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1Byb2plY3RCYXNlZExlYXJuaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescProjectSampoorna.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1Byb2plY3RTYW1wb29ybmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescProjectSamriddhi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1Byb2plY3RTYW1yaWRkaGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescSchoolToWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1NjaG9vbFRvV29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SoescSocialEmotionalAndEthicalLearning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2VzY1NvY2lhbEVtb3Rpb25hbEFuZEV0aGljYWxMZWFybmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohCentreForLeadershipDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hDZW50cmVGb3JMZWFkZXJzaGlwRGV2ZWxvcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohCentreForMedicalServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hDZW50cmVGb3JNZWRpY2FsU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohCentreForOrganizationalDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hDZW50cmVGb3JPcmdhbml6YXRpb25hbERldmVsb3BtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohCentreForPublicHealthServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hDZW50cmVGb3JQdWJsaWNIZWFsdGhTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohCentreForQualityImprovement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hDZW50cmVGb3JRdWFsaXR5SW1wcm92ZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/SohGenderAndDiversity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2hHZW5kZXJBbmREaXZlcnNpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/TermsOfUse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc09mVXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/TheSyllabusForACompassionateFuture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGVTeWxsYWJ1c0ZvckFDb21wYXNzaW9uYXRlRnV0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/TransformingRuralHealthSystems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2Zvcm1pbmdSdXJhbEhlYWx0aFN5c3RlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/TransformingRuralHealthSystemsArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2Zvcm1pbmdSdXJhbEhlYWx0aFN5c3RlbXNBcnRpY2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/TransformingRuralHealthSystemsPressRelease.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2Zvcm1pbmdSdXJhbEhlYWx0aFN5c3RlbXNQcmVzc1JlbGVhc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/Videos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/WasteToWorthRuralIndiasPlasticChallenge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXYXN0ZVRvV29ydGhSdXJhbEluZGlhc1BsYXN0aWNDaGFsbGVuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/WhenTheWetlandsCallOutForProtection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaGVuVGhlV2V0bGFuZHNDYWxsT3V0Rm9yUHJvdGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/WorkshopOnRejuvenationOfWaterBodiesAndWaterHeldAtKupwara.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXb3Jrc2hvcE9uUmVqdXZlbmF0aW9uT2ZXYXRlckJvZGllc0FuZFdhdGVySGVsZEF0S3Vwd2FyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/WorldEnvironmentDay2023NeedToThinkBeyondCarbonFootprintToPlasticAndWaterFootprint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXb3JsZEVudmlyb25tZW50RGF5MjAyM05lZWRUb1RoaW5rQmV5b25kQ2FyYm9uRm9vdHByaW50VG9QbGFzdGljQW5kV2F0ZXJGb290cHJpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Home/ZeroPlasticWasteCommunitiesAMovementLedBy70000EcoWarriorsFromJhunjhunuDistrictInRajasthan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxaZXJvUGxhc3RpY1dhc3RlQ29tbXVuaXRpZXNBTW92ZW1lbnRMZWRCeTcwMDAwRWNvV2FycmlvcnNGcm9tSmh1bmpodW51RGlzdHJpY3RJblJhamFzdGhhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Shared/_PartialBlogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQmxvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/PiramalSchoolOfLeadership/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-a3yhgrhs5n

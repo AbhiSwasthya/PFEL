@@ -1,0 +1,833 @@
+﻿@using PiramalSchoolOfLeadership.Models
+@{    
+    var articleList = ViewBag.ArticleList as List<JSONModel>;
+    var blogList = ViewBag.BlogData as List<JSONModel>;
+    var storyList = ViewBag.Stories as List<JSONModel>;
+    var pressReleases = ViewBag.PressReleases as List<JSONModel>;
+    var reports = ViewBag.Reports as List<JSONModel>;
+    var researchPapers = ViewBag.ResearchPapers as List<JSONModel>;
+    var videos = ViewBag.Videos as List<PiramalSchoolOfLeadership.Models.PlaylistItem>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <!-- <meta Cache-Control:public, max-age="31536000"> -->
+    <!-- <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"> -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="title" content="">
+    <meta name="author" content="Piramal Foundation For Education Leadership">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicons/favicon.ico">
+    <link rel="canonical" href="https://www.madebysparkt.com/" />
+
+
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Piramal Foundation For Education Leadership">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="Piramal Foundation For Education Leadership">
+    <meta name="twitter:image" content="assets/images/indiarf-logo.png" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Piramal Foundation For Education Leadership">
+    <meta property="og:image" content="assets/images/indiarf-logo.png">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+
+
+
+    <script type="text/javascript" src="assets/js/lazysizes.min.js"></script>
+    <link href="assets/css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+    <link href="assets/plugins/aos/dist/aos.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css"> -->
+    <link preload href="assets/css/reset.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/fancybox/css/jquery.fancybox.min.css" />
+    <link href="assets/plugins/swiper/package/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/bootstrap-scrolling-tabs/dist/jquery.scrolling-tabs.min.css" />
+
+
+    <link preload href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <style>
+        .page_loader {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background-color: #fff;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+            .page_loader svg {
+                height: 280px;
+                z-index: 100001;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+                .page_loader svg #rect4487 {
+                    fill: #fff;
+                }
+
+            .page_loader .loader {
+                height: 280px;
+                width: 174px;
+                overflow: hidden;
+                position: relative;
+                margin: 0 auto;
+            }
+
+            .page_loader .water {
+                /* background: linear-gradient(180deg, rgba(0, 147, 214, 1) 0%, rgba(99, 178, 56, 1) 100%); */
+                background-color: #EF4023;
+                position: relative;
+                top: 50%;
+                height: 200%;
+                width: 300%;
+                z-index: 1000;
+                border-radius: 38%;
+                left: -50%;
+                transform: rotate(360deg);
+                transition: all 1s ease;
+                animation: wave 5s linear infinite, movetop 10s linear forwards;
+            }
+
+       @@keyframes movetop {
+            0%
+
+        {
+            top: 80%;
+        }
+
+        100% {
+            top: 10px;
+        }
+
+        }
+
+        @@keyframes wave {
+            0%
+
+        {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+
+        }
+    </style>
+
+</head>
+
+<body class="@ViewBag.BodyClass">
+    <div class="page_loader">
+        <svg viewBox="0 0 327 509">
+            <path id="Path_1" data-name="Path 1" d="M0,0V509H327V0ZM52.52,304.52c-9.35-22.06-24.94-57.77-21.82-103.98,5.2-67.22-2.08-93.48-2.08-93.48s30.14,18.91,24.94,80.87c-4.16,51.46-4.16,81.92,4.16,114.48,1.04,3.15-4.16,5.25-5.2,2.1Zm147.56,177.5c-10.39,9.45-25.98,15.76-23.9,2.1,4.16-24.16,0-51.46-33.25-74.57-56.11-39.91-75.86-90.33-75.86-140.74,0-112.38,87.29-172.25,86.25-240.52,51.96,67.22-63.39,151.24-63.39,243.67,0,49.36,14.55,87.17,56.11,119.73,8.31,6.3,14.55,0,8.31-5.25-27.02-22.06-48.84-49.36-48.84-100.83,0-64.07,44.68-108.18,100.8-138.64,20.78-10.5,48.84-29.41,60.27-50.41,7.27,31.51-6.23,49.36-35.33,71.42-19.74,14.7-101.84,50.41-101.84,132.34,0,49.36,28.06,71.42,51.96,89.28,8.31,7.35,17.66-1.05,5.2-8.4-22.86-14.7-42.61-40.96-42.61-72.47,0-52.52,37.41-97.68,116.39-88.22,12.47,1.05,25.98,3.15,35.33-1.05,0,4.2-6.23,33.61-47.8,29.41-87.29-9.45-95.6,96.63-39.49,101.88,40.53,3.15,50.92-37.81,55.08-55.67,7.27-30.46,24.94-39.91,34.29-43.06-1.04,84.02-58.19,193.26-97.68,230.02Z" fill="#fff" />
+            <path id="Path_2" data-name="Path 2" d="M200.23,482.11c39.49-36.76,96.64-145.99,97.68-230.02-9.35,3.15-27.02,12.6-34.29,43.06-4.16,17.86-14.55,58.82-55.08,55.67-56.12-5.25-47.8-111.33,39.49-101.88,41.57,4.2,47.8-25.21,47.8-29.41-9.35,4.2-22.86,2.1-35.33,1.05-78.98-9.45-116.39,35.71-116.39,88.23,0,31.51,19.74,57.77,42.6,72.47,12.47,7.35,3.12,15.75-5.19,8.4-23.9-17.86-51.96-39.91-51.96-89.28,0-81.92,82.09-117.64,101.84-132.34C260.5,146,274,128.15,266.73,96.64c-11.43,21.01-39.49,39.91-60.27,50.41-56.12,30.46-100.8,74.57-100.8,138.64,0,51.46,21.82,78.77,48.84,100.83,6.24,5.25,0,11.55-8.31,5.25-41.57-32.56-56.12-70.37-56.12-119.73,0-92.43,115.35-176.45,63.39-243.67,1.04,68.27-86.25,128.14-86.25,240.52,0,50.41,19.74,100.83,75.86,140.74,33.25,23.11,37.41,50.42,33.25,74.57-2.08,13.65,13.51,7.35,23.9-2.1ZM53.7,188.02c5.2-61.97-24.94-80.87-24.94-80.87s7.27,26.26,2.08,93.48c-3.12,46.21,12.47,81.92,21.82,103.98,1.04,3.15,6.23,1.05,5.2-2.1-8.31-32.56-8.31-63.02-4.16-114.48Z" fill="none" stroke="#f15a24" stroke-miterlimit="10" stroke-width="1" />
+        </svg>
+        <div class="loader">
+            <div class="water"></div>
+        </div>
+    </div>
+    <header class="navWrap">
+        <div class="container container-1200 h-100 ">
+            <div class="headerWrap d-flex h-100 justify-content-between align-items-center">
+                <div class="logoWrap text-start me-3">
+                    <a href="/" class="logo"><img src="assets/images/piramal-school-of-leadership-logo.svg" alt="Piramal Foundation For Education Leadership" /></a>
+                </div>
+                <div class="sitenavigation text-end text-md-start">
+                    <div class="hamburger">
+                        <div class="line-menu"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu"></div>
+                    </div>
+                    <div class="menu-wrap">
+                        <ul class="primary_menu">
+                            <li><a href="/" class="nav_menu homepage">Home</a></li>
+                            <li><a href="about-us" class="nav_menu aboutUs">About</a></li>
+                            <li class="showmenu">
+                                <span class="nav_menu showmenu AreasOfWork ">Areas of Work</span>
+                                <div class="submenu">
+                                    <div class="container">
+                                        <div class="submenuBox">
+                                            <div class="row hover-group">
+                                                <div class="col-sm-12 col-lg-12 col-xl-5">
+                                                    <ul>
+                                                        <li><a href="school-of-education-and-systems-change" class="nav_menu EducationAndSystems" data-target="details-1">School of Education & Systems Change</a></li>
+                                                        <li><a href="school-of-health" class="nav_menu SchoolOfHealth" data-target="details-2">School of Health</a></li>
+                                                        <li><a href="school-of-climate-and-sustainability" class="nav_menu ClimateAndSustainability" data-target="details-3">School of Climate & Sustainability</a></li>
+                                                        <li><a href="school-of-gender-and-inclusion" class="nav_menu GenderAndInclusion" data-target="details-4">School of Gender and Inclusion</a></li>
+                                                        <li><a href="centre-for-nurturing-future-leaders" class="nav_menu NurturingFutureLeaders" data-target="details-5">Centre for Nurturing Future Leaders</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-12 col-lg-12 col-xl-7 mobile-none">
+                                                    <div class="work-area-details " id="details-1">
+                                                        <div class="details-image"><img src="assets/images/school-of-education-and-systems-change-banner.webp" alt=""></div>
+                                                        <div class="details-text">The School of Education and Systems Change (SoESC) aims to co-create a state strategy and focuses on building a holistic curriculum in pedagogy. </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="details-2">
+                                                        <div class="details-image"><img src="assets/images/school-of-health-banner.webp" alt=""></div>
+                                                        <div class="details-text">The School of Health envisions a nation of tempered radicals—empathetic public servants empowered to transform systems from within by restoring dignity, trust, and human potential.</div>
+                                                    </div>
+                                                    <div class="work-area-details " id="details-3">
+                                                        <div class="details-image"><img src="assets/images/school-of-climate-and-sustainability-banner.webp" alt=""></div>
+                                                        <div class="details-text">The School of Climate and Sustainability drives water security through a “One Water” approach, empowering leaders and communities for integrated, resilient solutions.</div>
+                                                    </div>
+                                                    <div class="work-area-details " id="details-4">
+                                                        <div class="details-image"><img src="assets/images/school-of-gender-and-inclusion-banner.webp" alt=""></div>
+                                                        <div class="details-text">The School of Gender and Inclusion empowers public systems to deliver inclusive, innovative services for persons with disabilities and special needs.</div>
+                                                    </div>
+                                                    <div class="work-area-details " id="details-5">
+                                                        <div class="details-image"><img src="assets/images/centre-for-nurturing-future-leaders-banner.webp" alt=""></div>
+                                                        <div class="details-text">The Center for Nurturing Future Leaders builds transformative fellowships that equip youth and women with the skills, mindsets, and values to lead change and shape India’s future.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="showmenu">
+                                <span class="nav_menu Latest">Latest</span>
+                                <div class="submenu">
+                                    <div class="container">
+                                        <div class="submenuBox">
+                                            <div class="row hover-group">
+                                                <div class="col-sm-12 col-lg-12 col-xl-4 d-xl-flex flex-xl-column gap-xl-3">
+                                                    <ul>
+                                                        <li><a href="press-releases" class="nav_menu PressReleases" data-target="latest-1">Press Releases</a></li>
+                                                        <li><a href="news-stories" class="nav_menu NewsStories" data-target="latest-2">News Stories</a></li>
+                                                        <li><a href="videos" class="nav_menu Videos" data-target="latest-3">Videos</a></li>
+                                                    </ul>
+                                                    <div class="mt-auto mobile-none">
+                                                        <a href="press-releases" class="btn orange w-100"><i class="fa-solid fa-angle-right me-2"></i> View All </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-lg-12 col-xl-8 mobile-none">
+                                                    <div class="work-area-details " id="latest-1">
+                                                        <div class="row">
+                                                            @if (pressReleases != null && pressReleases.Any())
+                                                            {
+                                                                foreach (var item in pressReleases)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="latest-2">
+                                                        <div class="row">
+                                                            @if (storyList != null && storyList.Any())
+                                                            {
+                                                                foreach (var item in storyList)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="latest-3">
+                                                        <div class="row">
+                                                            @if (videos != null && videos.Any())
+                                                            {
+                                                            foreach (var element in videos)
+                                                            {
+                                                                var videoId = element.snippet.resourceid.videoid;
+                                                                var title = element.snippet.title;
+                                                                <div class="col-sm-12 col-lg-6">
+                                                                    <div class="all-card">
+                                                                        <a data-fancybox="featured-videos" href="https://youtu.be/@element.snippet.resourceid.videoid">
+                                                                            <div class="image ratio ratio-21x9">
+                                                                                <img src="https://i.ytimg.com/vi/@videoId/hqdefault.jpg" alt="">
+                                                                            </div>
+                                                                            <div class="header">@title</div>
+                                                                            <div class="card_footer">
+                                                                                <span class="btn"><i class="fa-solid fa-angle-right"></i> Play </span>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            }
+                                                            }                                                      
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="showmenu">
+                                <span class="nav_menu Publications">Publications</span>
+                                <div class="submenu">
+                                    <div class="container">
+                                        <div class="submenuBox">
+                                            <div class="row hover-group">
+                                                <div class="col-sm-12 col-lg-12 col-xl-4 d-xl-flex flex-xl-column gap-xl-3">
+                                                    <ul>
+                                                        <li><a href="research-papers" class="nav_menu ResearchPapers" data-target="publications-1">Research Papers</a></li>
+                                                        <li><a href="reports" class="nav_menu Reports" data-target="publications-2">Reports</a></li>
+                                                        <li><a href="articles" class="nav_menu Articles" data-target="publications-3">Articles</a></li>
+                                                        <li><a href="blogs" class="nav_menu Blogs" data-target="publications-4">Blogs</a></li>
+                                                    </ul>
+                                                    <div class="mt-auto mobile-none">
+                                                        <a href="research-papers" class="btn orange w-100"><i class="fa-solid fa-angle-right me-2"></i> View All </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-lg-12 col-xl-8 mobile-none">
+                                                    <div class="work-area-details " id="publications-1">
+                                                        <div class="row">
+                                                            @if (researchPapers != null && researchPapers.Any())
+                                                            {
+                                                                foreach (var item in researchPapers)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }                                                           
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="publications-2">
+                                                        <div class="row">
+                                                            @if (reports != null && reports.Any())
+                                                            {
+                                                                foreach (var item in reports)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a target="_blank" href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="publications-3">
+                                                        <div class="row">
+                                                            @if (articleList != null && articleList.Any())
+                                                            {
+                                                                foreach (var item in articleList)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                    <div class="work-area-details " id="publications-4">
+                                                        <div class="row">
+                                                            @if (blogList != null && blogList.Any())
+                                                            {
+                                                                foreach (var item in blogList)
+                                                                {
+                                                                    <div class="col-sm-12 col-lg-6">
+                                                                        <div class="all-card">
+                                                                            <a href="@item.URL">
+                                                                                <div class="image ratio ratio-21x9">
+                                                                                    <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                                                                    <img src="assets/images/thumbnail/@item.Image" alt="">
+                                                                                </div>
+                                                                                <div class="date">@item.PublishedDate</div>
+                                                                                <div class="header">@item.Title</div>
+                                                                                <div class="card_footer">
+                                                                                    <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="career" class="nav_menu Career">Career</a></li>
+                            <li class="desktop-none"><a href="contact-us" class="nav_menu ContactUs">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="mobile-none rightBtn">
+                    <a href="contact-us" class="nav_menu ContactUs">
+                        Contact Us
+                        <!-- <img src="assets/images/mudra.svg" alt=""> -->
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- <div class="banner-social" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500"> -->
+    <div class="banner-social">
+        <div class="banner-social-heading">Follow us</div>
+        <div class="social_page_links d-flex flex-md-column gap-3 gap-md-1">
+            <a target="_blank" href="https://www.linkedin.com/company/piramalschoolofleadership/" aria-label="Follow us on Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile?id=100093630283701" aria-label="Follow us on Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/PiramalSoL" aria-label="Follow us on Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/piramal_sol/?hl=en" aria-label="Follow us on Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a target="_blank" href="https://www.youtube.com/@@PiramalSchoolofLeadership" aria-label="Subscribe us on YouTube"><i class="fa-brands fa-square-youtube"></i></a>
+        </div>
+    </div>
+    @RenderBody()
+    <footer>
+        <div class="container pb-3 pt-5 ">
+            <div class="row g-4 mb-4">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 text-md-start text-start">
+                    <div class=" mb-4">
+                        <div class="footer_logo">
+                            <img src="assets/images/piramal-school-of-leadership-white-logo.svg" alt="Piramal Foundation For Education Leadership" />
+                        </div>
+                    </div>
+                    <address class="mb-0">
+                        <div class="row">
+                            <div class=" col-sm-12 col-md-12 col-xl-11 mb-3">
+                                <div class="font-size2 ">Our vision is to transform Health, Education, Water and Social Sector Ecosystems through partnerships, high impact solutions and throughleadership.</div>
+                            </div>
+                        </div>
+                    </address>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 ">
+                    <button type="button" aria-label="Quick Links" class="btn w-100 mb-3 desktop-none toggle_footer_nav_link"><i class="fa-solid fa-arrow-down align-middle me-1"></i> Quick Links </button>
+                    <div class="footer_menu">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+                                <ul class="text_size8">
+                                    <li class="title"><span class="footrlink title">Pages</span></li>
+                                    <li><a href="/" class="footrlink">Home</a></li>
+                                    <li><a href="about-us" class="footrlink">About</a></li>
+                                    <li><a href="press-releases" class="footrlink">Latest</a></li>
+                                    <li><a href="research-papers" class="footrlink">Publications</a></li>
+                                    <li><a href="career" class="footrlink">Careers</a></li>
+                                    <li><a href="contact-us" class="footrlink">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <ul class="text_size8">
+                                    <li class="title"><span class="footrlink title">Our Schools</span></li>
+                                    <li><a href="school-of-education-and-systems-change" class="footrlink">School of Education & Systems Change</a></li>
+                                    <li><a href="school-of-health" class="footrlink">School of Health</a></li>
+                                    <li><a href="school-of-climate-and-sustainability" class="footrlink">School of Climate & Sustainability </a></li>
+                                    <li><a href="school-of-gender-and-inclusion" class="footrlink">School of Gender and Inclusion</a></li>
+                                    <li><a href="centre-for-nurturing-future-leaders" class="footrlink">Centre for Nurturing Future Leaders</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+                                <ul class="text_size8">
+                                    <li class="title"><span class="footrlink title">Insights</span></li>
+                                    <li><a href="privacy-policy" class="footrlink">Privacy Policy</a></li>
+                                    <li><a href="terms-of-use" class="footrlink">Terms of use</a></li>
+                                    <li><a href="disclaimer" class="footrlink">Disclaimer</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerband pt-4 mb-3">
+                <div class="row g-4 align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                        <ul class="text_size8">
+                            <li class="title"><span class="footrlink title">Contact Us</span></li>
+                        </ul>
+                        <div class="row">
+                            <div class=" col-sm-12 col-md-12 col-xl-11">
+                                <div class="font-size2 ">
+                                    <a class="px-0 d-inline-block" href="tel:+912262166216">+91 022 6216 6216</a>
+                                    <br>
+                                    <a class="text-break px-0 d-inline-block" href="mailto:contact@piramalfoundationforeducationleadership.org">contact@piramalfoundationforeducationleadership.org</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                        <ul class="text_size8 ">
+                            <li class="title"><span class="footrlink title">Address</span></li>
+                        </ul>
+                        <div class="row">
+                            <div class=" col-sm-12 col-md-12 col-xl-11">
+                                <div class="font-size2 ">
+                                    2nd Floor, Piramal Ananta, Piramal Agastya Corporate Park,
+                                    LBS Marg, Kurla West, Mumbai - 400070
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 ">
+                        <div class="social_page_links">
+                            <a target="_blank" href="https://www.linkedin.com/company/piramalschoolofleadership/" aria-label="Follow us on Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/profile?id=100093630283701" aria-label="Follow us on Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a target="_blank" href="https://twitter.com/PiramalSoL" aria-label="Follow us on Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/piramal_sol/?hl=en" aria-label="Follow us on Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a target="_blank" href="https://www.youtube.com/@@PiramalSchoolofLeadership" aria-label="Subscribe us on YouTube"><i class="fa-brands fa-square-youtube"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footerlast bg-panache">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        ©2025 Piramal Foundation For Education Leadership. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/plugins/aos/dist/aos.js"></script>
+    <script type="text/javascript" src="assets/plugins/fancybox/js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/swiper/package/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap-scrolling-tabs/dist/jquery.scrolling-tabs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+
+    <script>
+        $(window).on('load', function() {
+          $('.page_loader').fadeOut();
+        });
+
+        window.addEventListener('load', function() {
+          // Your code here runs after the page has fully loaded
+          AOS.init({
+            once: true
+          });
+        });
+        $("input, textarea").on("focus change", function () {
+                 $(this).closest(".input_field").find(".text-danger").hide();
+             });
+         $("#ancHRefresh").click(function () {
+                $('#imgHCaptcha').attr('src', '/captcha-psl?prefix=H&noisy=true' + new Date().toLocaleString());
+                return false;
+            });
+         $("#btnSubmit").click(function (e) {
+            e.preventDefault();
+
+            if (!validateForm()) {
+                return;
+            }
+
+            var formData = new FormData();
+            formData.append("Name",$("#txtName").val().trim());
+            formData.append("CompanyName", $("#txtCompanyName").val().trim());
+            formData.append("ContactNo", $("#txtContactNumber").val().trim());
+            formData.append("EmailId", $("#txtEmailID").val().trim());
+            formData.append("Message", $("#txtMessage").val().trim());
+            formData.append("Captcha", $("#txtCaptcha").val().trim());
+            $.ajax({
+                url: "submit-data",
+                type: "POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.status == false) {
+                    swal("Oops!", response.message, "error");
+                }
+                else {                    
+                     $('#txtContactNumber').val('');
+                     $('#txtCompanyName').val('');
+                     $('#txtEmailID').val('');
+                      $('#txtCaptcha').val('');
+                     $('#txtMessage').val('');
+                     $('#txtName').val('');
+                     $( "#ancHRefresh" ).trigger( "click" );
+                    $("#contactUsModal").modal("show");
+
+                }
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+
+                    $('#txtError').html("Rate limit exceeded. Try again later.");
+                    swal("Oops!", response.message, "error");
+                }
+            });
+        });
+            $("#ancHRefresh").click(function () {         
+           $('#imgHCaptcha').attr('src', '/captcha-psl?prefix=H&noisy=true' + new Date().toLocaleString());
+           return false;
+        });
+         function validateForm() {
+            var isValid = true;
+            $(".text-danger").hide();
+
+            const containsHTML = (str) => /[<>]/.test(str);
+            const isValidEmail = (email) => /^[^\s@@]+@@[^\s@@]+\.[^\s@@]+$/.test(email);
+            const maxLengthCheck = (str, limit) => str.length <= limit;
+
+            let name = $("#txtName").val().trim();
+            if (name === "" || containsHTML(name) || !maxLengthCheck(name, 100)) {
+                $("#spnName").text("Invalid name").show();
+                isValid = false;
+            }
+
+            let companyName = $("#txtCompanyName").val().trim();
+            if (companyName === "" || containsHTML(companyName) || !maxLengthCheck(companyName, 100)) {
+                $("#spnCompanyName").text("Invalid company name").show();
+                isValid = false;
+            }
+
+            let contactNo = $("#txtContactNumber").val().trim();
+            if (contactNo === "" || containsHTML(contactNo) || !/^\d{10}$/.test(contactNo)) {
+                $("#spnContactNumber").text("Invalid contact number").show();
+                isValid = false;
+            }
+
+            let emailId = $("#txtEmailID").val().trim();
+            if (emailId === "" || containsHTML(emailId) || !isValidEmail(emailId)) {
+                $("#spnEmailID").text("Invalid email address").show();
+                isValid = false;
+            }           
+            let message = $("#txtMessage").val().trim();
+            if (message === "" || containsHTML(message) || !maxLengthCheck(message, 200)) {
+                $("#spnMessage").text("Invalid Message").show();
+                isValid = false;
+            }
+            return isValid;
+        }
+
+             $(document).ready(function () {               
+                 if($("#divBlogContent").length>0)
+                 {                   
+                    LoadBlogs();
+                 }
+                 else if($("#divArticleContent").length>0)
+                 {
+                     LoadArticles();
+                 }
+                 else if($("#divStoryContent").length>0)
+                 {
+                     LoadStories();
+                 }
+                 else if($("#divResearchContent").length>0)
+                 {
+                     LoadResearchContents();
+                 }
+        });
+
+                function LoadBlogs() {
+                $.get("/Home/LoadBlogs", { count: 3 }, function (data) {
+                    $("#divBlogContent").html(data);
+                   ApplyCarousel();
+                }); 
+                }
+                function LoadArticles() {
+                $.get("/Home/LoadArticles", { count: 3 }, function (data) {
+                    $("#divArticleContent").html(data);
+                   ApplyCarousel();
+                });
+                }
+                function LoadStories() {
+                $.get("/Home/LoadStories", { count: 3 }, function (data) {
+                    $("#divStoryContent").html(data);
+                   ApplyCarousel();
+                });
+                }
+                function LoadResearchContents() {
+                $.get("/Home/LoadResearchPapers", { count: 3 }, function (data) {
+                    $("#divResearchContent").html(data);
+                   ApplyCarousel();
+                });
+                }
+        function ApplyCarousel()
+        {
+           document.querySelectorAll('.three-col-slider').forEach((slider) => {
+          const container = slider.querySelector('.swiper-container');
+          const pagination = slider.querySelector('.swiper-pagination');
+          const nextButton = slider.querySelector('.swiper-button-next');
+          const prevButton = slider.querySelector('.swiper-button-prev');
+          const navWrapper = nextButton.parentElement.parentElement; // adjust if needed
+
+          const swiper = new Swiper(container, {
+            slidesPerView: 3,
+            spaceBetween: 24,
+            slidesPerGroup: 1,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            breakpoints: {
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 24,
+              },
+              768: {
+                slidesPerView: 2.2,
+                spaceBetween: 24,
+              },
+              600: {
+                slidesPerView: 1.2,
+                spaceBetween: 24,
+              },
+              300: {
+                slidesPerView: 1.2,
+                spaceBetween: 24,
+              }
+            },
+            pagination: {
+              el: pagination,
+              clickable: true,
+            },
+            navigation: {
+              nextEl: nextButton,
+              prevEl: prevButton,
+            },
+            on: {
+              init: () => toggleNavVisibility(),
+              slideChange: () => toggleNavVisibility(),
+              resize: () => toggleNavVisibility(),
+            }
+          });
+
+          function toggleNavVisibility() {
+            const prevDisabled = prevButton.classList.contains('swiper-button-disabled');
+            const nextDisabled = nextButton.classList.contains('swiper-button-disabled');
+
+            if (prevDisabled && nextDisabled) {
+              navWrapper.classList.add('d-none');
+            } else {
+              navWrapper.classList.remove('d-none');
+            }
+          }
+        });
+        };
+    </script>
+</body>
+
+</html>

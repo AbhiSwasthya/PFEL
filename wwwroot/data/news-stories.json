@@ -1,0 +1,28 @@
+{
+  "JSONList": [
+    {
+      "Id": "3",
+      "URL": "/the-syllabus-for-a-compassionate-future",
+      "Image": "the-syllabus-for-a-compassionate-future.jpg",
+      "Title": "The Syllabus For A Compassionate Future",
+      "PublishedDate": "August 9, 2024",
+      "Publisher": "Sangri Today"
+    },
+    {
+      "Id": "2",
+      "URL": "/kashmir-news-chasing-dreams-through-art-based-learning-in-conflict-torn-valley-schools",
+      "Image": "kashmir-news-chasing-dreams-through-art-based-learning-in-conflict-torn-valley-schools.jpg",
+      "Title": "Kashmir News: Chasing dreams through art-based learning in conflicttorn Valley schools",
+      "PublishedDate": "July 9, 2024",
+      "Publisher": "Live Mint"
+    },
+    {
+      "Id": "1",
+      "URL": "/foundation-stone-laying-at-psl",
+      "Image": "foundation-stone-laying-at-psl.jpg",
+      "Title": "Piramal Group Chairman Ajay Piramal lays foundation stone of Piramal School of Leadership in Jaipur, to train 150,000 leaders annually",
+      "PublishedDate": "December 2, 2023",
+      "Publisher": "Financial Express"
+    }
+  ]
+}

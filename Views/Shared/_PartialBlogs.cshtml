@@ -1,0 +1,23 @@
+﻿@model IList<PiramalSchoolOfLeadership.Models.JSONModel>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div class="swiper-slide">
+                                <div class="all-card">
+                                    <a href="@item.URL">
+                                        <div class="image ratio ratio-16x9">
+                                            <div class="tags-wrap"><span class="badge bg-primary">@item.Publisher</span></div>
+                                            <img src="assets/images/thumbnail/@item.Image" alt="">
+                                        </div>
+                                        <div class="date">@item.PublishedDate</div>
+                                        <div class="header">@item.Title</div>
+                                        <div class="card_footer">
+                                            <span class="btn"><i class="fa-solid fa-angle-right"></i> Know More </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    }
+       

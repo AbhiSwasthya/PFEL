@@ -1,0 +1,20 @@
+{
+  "JSONList": [
+    {
+      "Id": "2",
+      "URL": "/assets/download/coffee-table-book-seel.pdf",
+      "Image": "coffee-table-book-seel.jpg",
+      "Title": "Coffee Table Book Seel",
+      "PublishedDate": "February 29, 2025",
+      "Publisher": ""
+    },
+    {
+      "Id": "1",
+      "URL": "/assets/download/LSC-Seminar-Report-feb-2024.pdf",
+      "Image": "LSC-Seminar-Report-feb-2024.jpg",
+      "Title": "Life Skill Seminar: Empowers Rajasthan's Youth",
+      "PublishedDate": "February 29, 2024",
+      "Publisher": ""
+    }
+  ]
+}
